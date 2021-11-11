@@ -108,7 +108,11 @@
     },
     "pairlists": [
         {
-            "method": "StaticPairList"
+            "method": "VolumePairList",
+            "number_assets": 67,
+            "sort_key": "quoteVolume",
+            "min_value": 0,
+            "refresh_period": 1800
         }
     ],
     "edge": {
