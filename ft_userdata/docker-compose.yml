@@ -30,7 +30,7 @@ services:
       - freqtrade-network
 
   webserver:
-    image: nginx:latest
+    image: nginx:mainline-alpine
     container_name: webserver
     restart: unless-stopped
     ports:
