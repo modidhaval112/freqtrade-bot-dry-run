@@ -56,7 +56,7 @@ services:
       - ./views:/var/www/html
     depends_on:
       - webserver
-    command: certonly --webroot --webroot-path=/var/www/html --email modidhaval112@gmail.com --agree-tos --no-eff-email --staging -d mypetbot.xyz
+    command: certonly --webroot --webroot-path=/var/www/html --email modidhaval112@gmail.com --agree-tos --no-eff-email --staging -d mypetbot.xyz -d www.mypetbot.xyz
 
 volumes:
   certbot-etc:
