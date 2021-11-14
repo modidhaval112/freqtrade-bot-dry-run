@@ -3,6 +3,7 @@ freqtrade-ec2-instructions-main.zip
 *.pem
 multi-bot
 Extra/NostalgiaForInfinity-7.7.2
-ft_userdata/user_data/logs
 *.sqlite
 Extra
+ft_userdata/user_data/logs/freqtrade2.log
+ft_userdata/user_data/logs/freqtrade1.log
