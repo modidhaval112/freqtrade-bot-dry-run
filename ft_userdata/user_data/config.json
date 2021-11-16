@@ -137,7 +137,9 @@
         "verbosity": "error",
         "enable_openapi": false,
         "jwt_secret_key": "3741676fee590195b2bfc2307bbcf5b5afab74584d374af0286774eb8db7634a",
-        "CORS_origins": [],
+        "CORS_origins": [
+            "https://mypetbot.xyz"
+        ],
         "username": "freqtrader",
         "password": "freqtrader"
     },
