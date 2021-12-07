@@ -8,3 +8,4 @@ Extra
 ft_userdata/user_data/logs/freqtrade2.log
 ft_userdata/user_data/logs/freqtrade1.log
 *.png
+*.zip
